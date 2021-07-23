@@ -1,4 +1,4 @@
-Future<String> fetchUserOrder() => Future.delayed
+Future<String> fetchUserOrder() => Future.delayed(
       Duration(seconds: 2),
       () => 'Cappucino',
     );

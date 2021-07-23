@@ -1,4 +1,4 @@
-void main() 
+void main() {
   final stream = Stream.fromIterable([1, 2, 3]);
   // Stream.value(10);
   // Stream.error(Exception('Something went error'));

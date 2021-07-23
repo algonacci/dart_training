@@ -1,4 +1,4 @@
-Stream<String> asynFizzBuzz() async* 
+Stream<String> asynFizzBuzz() async* {
   for (var i = 1; i <= 15; i++) {
     await Future.delayed(Duration(milliseconds: 500));
     if (i % 3 == 0 && i % 5 == 0) {
